@@ -18,10 +18,6 @@ public void mousePressed()//optional
 		moveLen -= 360;
 	}
 }
-public void mouseDragged()
-{
-	rotate(PI/3.0);
-}
 public void sierpinski(int x, int y, int len) 
 {
 	if(len <= 20)
